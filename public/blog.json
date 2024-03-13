@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "cover": "../src/assets/images/1.jpg",
+        "title": "Exploring the Depths of Space: A Journey Beyond the Stars",
+        "author": "Samantha Smith",
+        "author_img": "../src/assets/images/boy1.png",
+        "posted_date": "March 13, 2024",
+        "reading_time": 12,
+        "hash_tags": [
+            "#space",
+            "#exploration",
+            "#astronomy"
+        ]
+    },
+    {
+        "id": 2,
+        "cover": "../src/assets/images/2.png",
+        "title": "Unraveling Mysteries of Ancient Civilizations: Lost Treasures and Forgotten Cultures",
+        "author": "David Johnson",
+        "author_img": "../src/assets/images/boy2.png",
+        "posted_date": "March 10, 2024",
+        "reading_time": 15,
+        "hash_tags": [
+            "#archaeology",
+            "#history",
+            "#civilizations"
+        ]
+    },
+    {
+        "id": 3,
+        "cover": "../src/assets/images/3.png",
+        "title": "The Art of Mindfulness: Embracing Peace and Presence in Everyday Life",
+        "author": "Emily Thompson",
+        "author_img": "../src/assets/images/girl1.jpg",
+        "posted_date": "March 8, 2024",
+        "reading_time": 8,
+        "hash_tags": [
+            "#mindfulness",
+            "#meditation",
+            "#wellness"
+        ]
+    },
+    {
+        "id": 4,
+        "cover": "../src/assets/images/4.jpg",
+        "title": "Eco-Friendly Living: Small Changes for a Greener Planet",
+        "author": "Michael Green",
+        "author_img": "../src/assets/images/girl2.jpg",
+        "posted_date": "March 5, 2024",
+        "reading_time": 10,
+        "hash_tags": [
+            "#environment",
+            "#sustainability",
+            "#greenliving"
+        ]
+    },
+    {
+        "id": 5,
+        "cover": "../src/assets/images/5.jpg",
+        "title": "The Power of Creativity: Igniting Innovation and Imagination",
+        "author": "Sarah Lee",
+        "author_img": "../src/assets/images/boy1.png",
+        "posted_date": "March 1, 2024",
+        "reading_time": 7,
+        "hash_tags": [
+            "#creativity",
+            "#innovation",
+            "#imagination"
+        ]
+    }
+]
