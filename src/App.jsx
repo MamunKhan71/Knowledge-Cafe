@@ -15,12 +15,16 @@ function App() {
     const newPosts = [...post, newPost];
     setPost(newPosts);
   }
+  const postFilter = (postId) =>{
+    const posts = post.filter(post => post.id != postId.id);
+    setPost(posts)
+  }
   return (
     <div >
       <Header></Header>
       <div className='md:flex justify-between container mx-auto gap-6'>
-        <Blogs spentTimer={spentTimer}></Blogs>
-        <Bookmarks spentTime={spentTime} post={post}></Bookmarks>
+        <Blogs spentTimer={spentTimer} postFilter={postFilter}></Blogs>
+        <Bookmarks spentTime={spentTime} post={post} ></Bookmarks>
       </div>
     </div>
   )

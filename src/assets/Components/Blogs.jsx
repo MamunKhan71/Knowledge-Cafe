@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import profile from '../images/profile.png'
 import Blog from "./Blog";
-const Blogs = ({spentTimer}) => {
+const Blogs = ({spentTimer, postFilter}) => {
     const [post, setPost] = useState([]);
 
     useEffect(() => {
@@ -15,7 +15,7 @@ const Blogs = ({spentTimer}) => {
         <div className="md:basis-2/3">
            {
             post.map(post => (
-                <Blog key={post.id} blog={post} spentTimer={spentTimer}></Blog>
+                <Blog key={post.id} blog={post} spentTimer={spentTimer} postFilter={postFilter}></Blog>
             ))
            }
         </div>

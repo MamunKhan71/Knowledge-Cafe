@@ -9,7 +9,7 @@ const Bookmarks = ({ spentTime, post }) => {
                 <div className="flex flex-col gap-4">
                     {
                         post.map(post => (
-                            <div className="bg-white  rounded-lg   p-4">
+                            <div className="bg-white  rounded-lg p-4">
                                 <h1 className="font-semibold">{post.title}</h1>
                             </div>
                         ))

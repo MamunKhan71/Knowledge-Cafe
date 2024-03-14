@@ -1,5 +1,5 @@
 import PropTypes, { object } from 'prop-types';
-const Blog = ({ blog, spentTimer }) => {
+const Blog = ({ blog, spentTimer, postFilter }) => {
     const date = (new Date()).getDay();
 
     return (
@@ -28,7 +28,7 @@ const Blog = ({ blog, spentTimer }) => {
                     }
                 </div>
                 <div>
-                    <a href='#' className='text-blue-600 font-bold underline'>Mark as Read</a>
+                    <a href='#' className='text-blue-600 font-bold underline' onClick={()=> postFilter(blog)}>Mark as Read</a>
                 </div>
             </div>
             <hr />
