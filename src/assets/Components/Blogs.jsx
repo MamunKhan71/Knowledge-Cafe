@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import profile from '../images/profile.png'
-const Blogs = () => {
+import Blog from "./Blog";
+const Blogs = ({spentTimer}) => {
     const [post, setPost] = useState([]);
 
     useEffect(() => {
@@ -11,8 +12,12 @@ const Blogs = () => {
     }, [])
 
     return (
-        <div>
-
+        <div className="md:basis-2/3">
+           {
+            post.map(post => (
+                <Blog key={post.id} blog={post} spentTimer={spentTimer}></Blog>
+            ))
+           }
         </div>
     );
 };
